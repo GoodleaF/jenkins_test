@@ -12,6 +12,6 @@ public class UserController {
 
     @PostMapping("/signup")
     public void signup() {
-        System.out.println("test2");
+        System.out.println("test3");
     }
 }
