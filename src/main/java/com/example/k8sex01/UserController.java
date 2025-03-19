@@ -12,6 +12,6 @@ public class UserController {
 
     @GetMapping("/signup")
     public void signup() {
-        System.out.println("test1");
+        System.out.println("test2");
     }
 }
