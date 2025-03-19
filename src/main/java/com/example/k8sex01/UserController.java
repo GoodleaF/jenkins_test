@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
 
     @GetMapping("/signup")
-    public void signup() {
+    public String signup() {
         System.out.println("test3");
+        return "test3";
     }
 }
