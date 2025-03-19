@@ -13,6 +13,6 @@ public class UserController {
 
     @GetMapping("/signup")
     public void signup() {
-        System.out.println("test9");
+        System.out.println("test1");
     }
 }
